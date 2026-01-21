@@ -1,0 +1,111 @@
+{
+  "potion": {
+    "id": "potion",
+    "name": "回复药",
+    "description": "恢复50点HP",
+    "type": "consumable",
+    "subtype": "healing",
+    "effect": "heal_hp",
+    "value": 50,
+    "price": 30
+  },
+  "hi_potion": {
+    "id": "hi_potion",
+    "name": "高级回复药",
+    "description": "恢复150点HP",
+    "type": "consumable",
+    "subtype": "healing",
+    "effect": "heal_hp",
+    "value": 150,
+    "price": 100
+  },
+  "ether": {
+    "id": "ether",
+    "name": "魔力药",
+    "description": "恢复20点MP",
+    "type": "consumable",
+    "subtype": "mana",
+    "effect": "heal_mp",
+    "value": 20,
+    "price": 50
+  },
+  "iron_sword": {
+    "id": "iron_sword",
+    "name": "铁剑",
+    "description": "普通的铁制长剑",
+    "type": "weapon",
+    "weapon_type": "sword",
+    "stats": {
+      "attack": 10
+    },
+    "price": 500
+  },
+  "steel_sword": {
+    "id": "steel_sword",
+    "name": "钢剑",
+    "description": "精练钢铁打造的剑",
+    "type": "weapon",
+    "weapon_type": "sword",
+    "stats": {
+      "attack": 25
+    },
+    "price": 1500
+  },
+  "leather_armor": {
+    "id": "leather_armor",
+    "name": "皮甲",
+    "description": "基础的皮革护甲",
+    "type": "armor",
+    "stats": {
+      "defense": 5,
+      "magic_defense": 2
+    },
+    "price": 300
+  },
+  "iron_armor": {
+    "id": "iron_armor",
+    "name": "铁甲",
+    "description": "坚固的铁制护甲",
+    "type": "armor",
+    "stats": {
+      "defense": 15,
+      "magic_defense": 5
+    },
+    "price": 800
+  },
+  "slime_gel": {
+    "id": "slime_gel",
+    "name": "史莱姆凝胶",
+    "description": "史莱姆掉落的粘稠物质，可用于炼金",
+    "type": "material",
+    "price": 10
+  },
+  "iron_ore": {
+    "id": "iron_ore",
+    "name": "铁矿石",
+    "description": "可用于锻造的矿石",
+    "type": "material",
+    "price": 25
+  },
+  "wood": {
+    "id": "wood",
+    "name": "木材",
+    "description": "基础建筑材料",
+    "type": "material",
+    "price": 5
+  },
+  "stone": {
+    "id": "stone",
+    "name": "石材",
+    "description": "基础建筑材料",
+    "type": "material",
+    "price": 8
+  },
+  "herb": {
+    "id": "herb",
+    "name": "药草",
+    "description": "可用于炼金的常见药草",
+    "type": "material",
+    "price": 15
+  }
+}

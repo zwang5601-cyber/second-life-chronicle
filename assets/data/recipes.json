@@ -1,0 +1,98 @@
+{
+  "potion": {
+    "id": "potion",
+    "name": "回复药",
+    "category": "consumable",
+    "building": "alchemy_lab",
+    "required_level": 1,
+    "materials": {
+      "herb": 2
+    },
+    "gold_cost": 10,
+    "result": "potion",
+    "result_count": 1
+  },
+  "hi_potion": {
+    "id": "hi_potion",
+    "name": "高级回复药",
+    "category": "consumable",
+    "building": "alchemy_lab",
+    "required_level": 2,
+    "materials": {
+      "herb": 3,
+      "slime_gel": 2
+    },
+    "gold_cost": 30,
+    "result": "hi_potion",
+    "result_count": 1
+  },
+  "ether": {
+    "id": "ether",
+    "name": "魔力药",
+    "category": "consumable",
+    "building": "alchemy_lab",
+    "required_level": 2,
+    "materials": {
+      "herb": 2,
+      "crystal": 1
+    },
+    "gold_cost": 25,
+    "result": "ether",
+    "result_count": 1
+  },
+  "iron_sword": {
+    "id": "iron_sword",
+    "name": "铁剑",
+    "category": "weapon",
+    "building": "forge",
+    "required_level": 1,
+    "materials": {
+      "iron_ore": 5,
+      "wood": 3
+    },
+    "gold_cost": 200,
+    "result": "iron_sword",
+    "result_count": 1
+  },
+  "steel_sword": {
+    "id": "steel_sword",
+    "name": "钢剑",
+    "category": "weapon",
+    "building": "forge",
+    "required_level": 2,
+    "materials": {
+      "iron_ore": 10,
+      "coal": 5
+    },
+    "gold_cost": 600,
+    "result": "steel_sword",
+    "result_count": 1
+  },
+  "leather_armor": {
+    "id": "leather_armor",
+    "name": "皮甲",
+    "category": "armor",
+    "building": "forge",
+    "required_level": 1,
+    "materials": {
+      "leather": 5
+    },
+    "gold_cost": 150,
+    "result": "leather_armor",
+    "result_count": 1
+  },
+  "iron_armor": {
+    "id": "iron_armor",
+    "name": "铁甲",
+    "category": "armor",
+    "building": "forge",
+    "required_level": 1,
+    "materials": {
+      "iron_ore": 8,
+      "leather": 3
+    },
+    "gold_cost": 350,
+    "result": "iron_armor",
+    "result_count": 1
+  }
+}

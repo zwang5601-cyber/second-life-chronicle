@@ -1,0 +1,30 @@
+{
+  "player": {
+    "id": "player",
+    "name": "主角",
+    "description": "转生到异世界的普通人，保留着前世的记忆",
+    "base_stats": {
+      "hp": 100,
+      "mp": 30,
+      "attack": 15,
+      "defense": 10,
+      "magic": 12,
+      "magic_defense": 8,
+      "speed": 10,
+      "luck": 5
+    },
+    "growth_rates": {
+      "hp": 1.2,
+      "mp": 1.1,
+      "attack": 1.15,
+      "defense": 1.1,
+      "magic": 1.1,
+      "magic_defense": 1.05,
+      "speed": 1.05,
+      "luck": 1.02
+    },
+    "job": "novice",
+    "skills": ["slash", "guard"],
+    "weapon_types": ["sword", "staff"]
+  }
+}

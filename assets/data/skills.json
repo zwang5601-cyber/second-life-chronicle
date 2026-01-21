@@ -1,0 +1,131 @@
+{
+  "slash": {
+    "id": "slash",
+    "name": "斩击",
+    "description": "用剑进行基础攻击",
+    "type": "physical",
+    "element": "sword",
+    "mp_cost": 0,
+    "power": 100,
+    "hit_count": 1,
+    "bp_scaling": [1, 2, 3, 4],
+    "target": "single_enemy"
+  },
+  "guard": {
+    "id": "guard",
+    "name": "防御",
+    "description": "进入防御姿态，受到伤害减半，BP+1",
+    "type": "support",
+    "element": "none",
+    "mp_cost": 0,
+    "power": 0,
+    "effect": "defend",
+    "target": "self"
+  },
+  "fireball": {
+    "id": "fireball",
+    "name": "火球术",
+    "description": "释放火焰魔法攻击敌人",
+    "type": "magical",
+    "element": "fire",
+    "mp_cost": 8,
+    "power": 150,
+    "hit_count": 1,
+    "bp_scaling": [1, 1.5, 2, 2.5],
+    "target": "single_enemy"
+  },
+  "ice_lance": {
+    "id": "ice_lance",
+    "name": "冰枪术",
+    "description": "召唤冰枪刺穿敌人",
+    "type": "magical",
+    "element": "ice",
+    "mp_cost": 10,
+    "power": 130,
+    "hit_count": 2,
+    "bp_scaling": [1, 1.5, 2, 2.5],
+    "target": "single_enemy"
+  },
+  "thunder": {
+    "id": "thunder",
+    "name": "雷击",
+    "description": "召唤雷电攻击敌人",
+    "type": "magical",
+    "element": "thunder",
+    "mp_cost": 12,
+    "power": 180,
+    "hit_count": 1,
+    "bp_scaling": [1, 1.5, 2, 2.5],
+    "target": "single_enemy"
+  },
+  "heal": {
+    "id": "heal",
+    "name": "治愈术",
+    "description": "恢复目标HP",
+    "type": "healing",
+    "element": "light",
+    "mp_cost": 6,
+    "power": 80,
+    "bp_scaling": [1, 1.5, 2, 2.5],
+    "target": "single_ally"
+  },
+  "power_strike": {
+    "id": "power_strike",
+    "name": "力量斩击",
+    "description": "集中力量的强力一击",
+    "type": "physical",
+    "element": "sword",
+    "mp_cost": 4,
+    "power": 180,
+    "hit_count": 1,
+    "bp_scaling": [1, 2, 3, 4],
+    "target": "single_enemy"
+  },
+  "multi_thrust": {
+    "id": "multi_thrust",
+    "name": "连续突刺",
+    "description": "快速的多次突刺攻击",
+    "type": "physical",
+    "element": "spear",
+    "mp_cost": 6,
+    "power": 60,
+    "hit_count": 3,
+    "bp_scaling": [1, 1.5, 2, 2.5],
+    "target": "single_enemy"
+  },
+  "tackle": {
+    "id": "tackle",
+    "name": "冲撞",
+    "description": "用身体撞击敌人",
+    "type": "physical",
+    "element": "physical",
+    "mp_cost": 0,
+    "power": 80,
+    "hit_count": 1,
+    "target": "single_enemy"
+  },
+  "bite": {
+    "id": "bite",
+    "name": "撕咬",
+    "description": "用锋利的牙齿撕咬",
+    "type": "physical",
+    "element": "physical",
+    "mp_cost": 0,
+    "power": 120,
+    "hit_count": 1,
+    "target": "single_enemy"
+  },
+  "howl": {
+    "id": "howl",
+    "name": "战吼",
+    "description": "发出战吼提升攻击力",
+    "type": "support",
+    "element": "none",
+    "mp_cost": 0,
+    "power": 0,
+    "effect": "attack_up",
+    "effect_value": 1.3,
+    "duration": 3,
+    "target": "self"
+  }
+}
