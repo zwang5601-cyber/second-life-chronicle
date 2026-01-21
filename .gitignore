@@ -1,0 +1,29 @@
+# Godot
+.godot/
+*.import
+export.cfg
+export_presets.cfg
+
+# Mono
+.mono/
+data_*/
+mono_crash.*.json
+
+# System
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Build
+build/
+export/
+*.exe
+*.x86_64
+*.pck
+*.zip

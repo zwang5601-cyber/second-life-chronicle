@@ -1,0 +1,43 @@
+; Engine configuration file.
+; Second Life Chronicle - Godot 4.3 Project
+
+config_version=5
+
+[application]
+
+config/name="Second Life Chronicle"
+config/name_localized={
+"zh_CN": "异世界人生录"
+}
+config/description="回合制RPG + 据点经营 + 家园防护"
+config/version="0.1.0"
+config/features=PackedStringArray("4.3", "Forward Plus")
+config/icon="res://assets/images/icon.png"
+
+[autoload]
+
+GameManager="*res://src/autoload/GameManager.gd"
+DataManager="*res://src/autoload/DataManager.gd"
+AudioManager="*res://src/autoload/AudioManager.gd"
+SaveManager="*res://src/autoload/SaveManager.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[input]
+
+ui_accept={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":4194309,"physical_keycode":0,"key_label":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":32,"physical_keycode":0,"key_label":0,"unicode":32,"echo":false,"script":null)
+]
+}
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+environment/defaults/default_clear_color=Color(0.1, 0.1, 0.15, 1)
